@@ -8,6 +8,7 @@
  
 2. Criar a aplicação base
 > npx create-react-app startae-team
+
 > cd startae-team
 
 3. Deletar as pastas public, src e o arquivo package.json; mover os correspondentes do github para dentro da raiz do projeto
