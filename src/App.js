@@ -35,7 +35,7 @@ class App extends Component {
     return (
       <div>
         <LogoArea value={this.props} />
-        <Header />
+        <Header value={this.props} />
         <Cards value={this.props} />
       </div>
     );

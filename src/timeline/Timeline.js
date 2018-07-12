@@ -58,7 +58,7 @@ class Timeline extends Component {
           <div className="container">
             <div className="wrapper">
               <div className="timeline-twitter-intro">
-                <img src="img/logo-twitter.svg" alt="" />
+                <img src={this.props.match.url.substr(0, this.props.match.url.indexOf('timeline')) + "img/logo-twitter.svg"} alt="" />
                 <p>@{this.state.twitter}</p>
               </div>
               <div className="timeline">
