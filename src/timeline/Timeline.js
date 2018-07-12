@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
 import LogoArea from '../logo-area/LogoArea.js'
-import TimelineComponent from '../timeline-component/TimelineComponent.js'
-import TimelineHeader from '../timeline-header/TimelineHeader.js'
 
 
 class Timeline extends Component {
